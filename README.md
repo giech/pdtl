@@ -33,7 +33,7 @@ The [code/bin](code/bin) directory contains all the executable binaries.
 
 With the exception of some of the parser utilities, all binaries require the input in the following format: the graph must be undirected, and is split in 2 files, a degree file (ending in `.deg`), and an adjacency file (ending in `.adj`). The degree file contains the degrees of the vertices as `v, d(v)` (with `v` ranging from `0` to `|V|`), while the adjacency file just stores the neighbors of each vertex in order (and sorted).
 
-This format was chosen for compatibility with the original MGT [implementation](http://www.cse.cuhk.edu.hk/~taoyf/paper/codes/trilist/trilist.zip), which is explained in the [manual](http://www.cse.cuhk.edu.hk/~taoyf/paper/codes/trilist/manual). The format is also explained further in Section V-B of our [paper](documents/pdtl-icpp-preprint), and a real example is given in [code/graphs](code/graphs).
+This format was chosen for compatibility with the original MGT [implementation](http://www.cse.cuhk.edu.hk/~taoyf/paper/codes/trilist/trilist.zip), which is explained in the [manual](http://www.cse.cuhk.edu.hk/~taoyf/paper/codes/trilist/manual). The format is also explained further in Section V-B of our [paper](documents/pdtl-icpp-preprint.pdf), and a real example is given in [code/graphs](code/graphs).
 
 How to execute the various binaries is discussed below. The inputs and outputs always refer to the base name of the `.deg/.adj` filenames.
 
